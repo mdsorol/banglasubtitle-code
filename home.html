@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link  href="fontawesome/css/all.css" rel="stylesheet">
+        <script src="bootstrap/js/jquery-3.5.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="row bg-dark">
+            <div class="container">
+            <nav class="navbar navbar-dark text-left">
+                <a class="navbar-brand" href="#">Subtitle</a>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="ipc-icon ipc-icon--menu ipc-button__icon ipc-button__icon--pre" viewBox="0 0 24 24" fill="currentColor" role="presentation"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"></path></svg></span>
+                    <span class="font-size-14 font-weight-bold">MENU</span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movie Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TV Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Translator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Language</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Discussion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Subtitle Request</a>
+                    </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="my-2 my-sm-0"><button class="btn bg-transparent hr-button" type="submit"><i class='fas fa-user fa-lg text-white-50'></i></button></li>
+                        <li class="my-2 my-sm-0"><button class="btn bg-transparent hr-button" type="submit"><i class='fas fa-bell fa-lg text-white-50'></i></button></li>
+                        <li class="my-2 my-sm-0 d-none"><input class="form-control mr-sm-2 hr-button" type="search" placeholder=""></li>
+                        <li class="my-2 my-sm-0"><button class="btn bg-transparent hr-button" type="submit"><i class='fas fa-search fa-lg text-white-50'></i></button></li>
+                    </ul>
+                </div>
+                <form class="form-inline search-lg-input">
+                    <div id="custom-search-input">
+                        <div class="input-group col-md-12">
+                            <input type="text" class="search-query form-control" placeholder="" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger" type="button">
+                                    <span class="fas fa-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form> 
+                <form class="form-inline mr-auto">
+                    <span class="nav-right-button"><a class="" href="#">UPLOAD</a></span>
+                    <span>&nbsp;|</span>
+                    <span class="nav-right-button">&nbsp;<a class="" href="#">LOGIN</a></span>
+                </form>
+            </nav>
+        </div>
+        </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="row"><div class="container"><h1 class="bg-light text-center py-5 mt-4">ADS SECTION</h1></div></div>
+                <div class="row">
+                    <div class="col-sm-8">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item st-tab mr-sm-2 bg-dark">
+                                  <a class="nav-link text-light active" id="pills-latest-tab" data-toggle="pill" href="#pills-latest" role="tab" aria-controls="pills-latest" aria-selected="true">LATEST</a>
+                                </li>
+                                <li class="nav-item st-tab mr-sm-2 bg-dark">
+                                  <a class="nav-link" id="pills-trend-tab" data-toggle="pill" href="#pills-trend" role="tab" aria-controls="pills-trend" aria-selected="false">TRENDZ</a>
+                                </li>
+                                <li class="nav-item st-tab mr-sm-2 bg-dark">
+                                  <a class="nav-link" id="pills-hot-tab" data-toggle="pill" href="#pills-hot" role="tab" aria-controls="pills-hot" aria-selected="false">HOT</a>
+                                </li>
+                                <li class="nav-item st-tab mr-sm-2 bg-dark">
+                                    <a class="nav-link" id="pills-coming-tab" data-toggle="pill" href="#pills-coming" role="tab" aria-controls="pills-coming" aria-selected="false">COMING SOON</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-latest" role="tabpanel" aria-labelledby="pills-latest-tab">
+                                <div class="blog">
+                                    <div class="well shadow-sm bg-dark text-light mt-2 mb-2 pt-2">
+                                        <div class="media mb-auto mt-auto">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <div class="media-heading blog-title pl-2 pr-2">Most Wanted 2020</div>
+                                                <div class="row">
+                                                    <div class="col-sm-4 pt-2">
+                                                        <div class="genre pl-2 pr-2 text-warning">Crime</div>
+                                                    </div>
+                                                    <div class="col-sm-8 mt-n6">
+                                                        <div class="row">
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="year movie-info font-size-16 font-weight-bold">2021</div>
+                                                                <div class="year-text">year</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="video-length movie-info font-weight-bold">96</div>
+                                                                <div class="video-length-text">min</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="imdb-rating movie-info font-weight-bold">6.4</div>
+                                                                <div class="imdb-rating-text">IMDB</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="meta">
+                                                </div>
+                                                <div class="mt-2 pb-2">
+                                                    <div class="pl-2 pr-2">
+                                                        <span><i class="far fa-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="far fa-comment"></i> 2 comments</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-sm bg-dark text-light mt-2 mb-2 pt-2">
+                                        <div class="media mb-auto mt-auto">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <div class="media-heading blog-title pl-2 pr-2">Most Wanted 2020</div>
+                                                <div class="row">
+                                                    <div class="col-sm-4 pt-2">
+                                                        <div class="genre pl-2 pr-2 text-warning">Crime</div>
+                                                    </div>
+                                                    <div class="col-sm-8 mt-n6">
+                                                        <div class="row">
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="year movie-info font-size-16 font-weight-bold">2021</div>
+                                                                <div class="year-text">year</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="video-length movie-info font-weight-bold">96</div>
+                                                                <div class="video-length-text">min</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="imdb-rating movie-info font-weight-bold">6.4</div>
+                                                                <div class="imdb-rating-text">IMDB</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="meta">
+                                                </div>
+                                                <div class="mt-2 pb-2">
+                                                    <div class="pl-2 pr-2">
+                                                        <span><i class="far fa-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="far fa-comment"></i> 2 comments</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-sm bg-dark text-light mt-2 mb-2 pt-2">
+                                        <div class="media mb-auto mt-auto">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <div class="media-heading blog-title pl-2 pr-2">Most Wanted 2020</div>
+                                                <div class="row">
+                                                    <div class="col-sm-4 pt-2">
+                                                        <div class="genre pl-2 pr-2 text-warning">Crime</div>
+                                                    </div>
+                                                    <div class="col-sm-8 mt-n6">
+                                                        <div class="row">
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="year movie-info font-size-16 font-weight-bold">2021</div>
+                                                                <div class="year-text">year</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="video-length movie-info font-weight-bold">96</div>
+                                                                <div class="video-length-text">min</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="imdb-rating movie-info font-weight-bold">6.4</div>
+                                                                <div class="imdb-rating-text">IMDB</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="meta">
+                                                </div>
+                                                <div class="mt-2 pb-2">
+                                                    <div class="pl-2 pr-2">
+                                                        <span><i class="far fa-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="far fa-comment"></i> 2 comments</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-sm bg-dark text-light mt-2 mb-2 pt-2">
+                                        <div class="media mb-auto mt-auto">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <div class="media-heading blog-title pl-2 pr-2">Most Wanted 2020</div>
+                                                <div class="row">
+                                                    <div class="col-sm-4 pt-2">
+                                                        <div class="genre pl-2 pr-2 text-warning">Crime</div>
+                                                    </div>
+                                                    <div class="col-sm-8 mt-n6">
+                                                        <div class="row">
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="year movie-info font-size-16 font-weight-bold">2021</div>
+                                                                <div class="year-text">year</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="video-length movie-info font-weight-bold">96</div>
+                                                                <div class="video-length-text">min</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="imdb-rating movie-info font-weight-bold">6.4</div>
+                                                                <div class="imdb-rating-text">IMDB</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="meta">
+                                                </div>
+                                                <div class="mt-2 pb-2">
+                                                    <div class="pl-2 pr-2">
+                                                        <span><i class="far fa-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="far fa-comment"></i> 2 comments</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-sm bg-dark text-light mt-2 mb-2 pt-2">
+                                        <div class="media mb-auto mt-auto">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <div class="media-heading blog-title pl-2 pr-2">Most Wanted 2020</div>
+                                                <div class="row">
+                                                    <div class="col-sm-4 pt-2">
+                                                        <div class="genre pl-2 pr-2 text-warning">Crime</div>
+                                                    </div>
+                                                    <div class="col-sm-8 mt-n6">
+                                                        <div class="row">
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="year movie-info font-size-16 font-weight-bold">2021</div>
+                                                                <div class="year-text">year</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="video-length movie-info font-weight-bold">96</div>
+                                                                <div class="video-length-text">min</div>
+                                                            </div>
+                                                            <div class="col-sm-4 text-center">
+                                                                <div class="imdb-rating movie-info font-weight-bold">6.4</div>
+                                                                <div class="imdb-rating-text">IMDB</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="meta">
+                                                </div>
+                                                <div class="mt-2 pb-2">
+                                                    <div class="pl-2 pr-2">
+                                                        <span><i class="far fa-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="far fa-comment"></i> 2 comments</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-trend" role="tabpanel" aria-labelledby="pills-trend-tab">
+                                <div class="blog">
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Annabelle 2012</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Conjuring 2</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading pl-2 pr-2">Conjuring 3</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Conjuring 2020</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-hot" role="tabpanel" aria-labelledby="pills-hot-tab">
+                                <div class="blog">
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading pl-2 pr-2">Hotman 2012</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Conjuring 2</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Conjuring 3</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Conjuring 2020</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-coming" role="tabpanel" aria-labelledby="pills-coming-tab">
+                                <div class="blog">
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Super Natural Season-1</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Super natural Series 2</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Conjuring 3</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="well shadow-lg mt-2 mb-2 pt-2">
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placekitten.com/150/150">
+                                            </a>
+                                            <div class="media-body pl-2 pr-2">
+                                                <h4 class="media-heading blog-title pl-2 pr-2">Conjuring 2020</h4>
+                                                <p class="text-left pl-2 pr-2">By Francisco</p>
+                                                <p class="pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                                    Aliquam in felis sit amet augue.</p>
+                                                <div class="row">
+                                                    <div class="container-fluid">
+                                                        <span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span>
+                                                        <span class="divider">|</span>
+                                                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+                                                        <span class="divider">|</span>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>                                                        </span>
+                                                        <span class="divider">|</span>
+                                                        <div>
+                                                        <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                                                            <span><i class="fa fa-facebook-square"></i></span>
+                                                            <span><i class="fa fa-twitter-square"></i></span>
+                                                            <span><i class="fa fa-google-plus-square"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination-area">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                  <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">«</span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                  <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">»</span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="ads-section shadow-lg">
+                            <img src="square-ads.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <style>
+        .hr-button{
+            padding: 0.375rem .35rem;
+        }
+
+        .st-tab > .active{
+            background-color: orangered !important;
+        }
+
+        .st-tab> a{
+            color: rgb(255 255 255 / 83%)!important;
+        }
+        .font-size-12{
+            font-size: 12px;
+        }
+        .font-size-14{
+            font-size: 14px;
+        }
+
+        #custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 5px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+    .nav-right-button a{
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(255,255,255,.5);
+    }
+
+    .ads-section > img{
+        width: 100%;
+    }
+
+    .blog-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .genre{
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .media > a > img{
+        width: 100px;
+    }
+
+    .font-size-16{
+        font-size: 16px;
+    }
+
+    .mt-n6{
+        margin-top: -6px;
+    }
+
+    @media(min-width: 768px) { 
+        #custom-search-input{
+            width: 100%;
+        }
+        .search-lg-input{
+            width: 50%;
+        }
+     }
+
+
+    </style>
+</html>
